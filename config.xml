@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.brodybits.TestApp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CDV-sqlite-evcore-PGB-W10-arm-test</name>
+    <name>CDV-sqlite-legacy-PGB-W10-x86-test</name>
     <description>
-        Cordova sqlite evcore-extbuild-free PhoneGap Windows 10 ARM test app
+        Cordova sqlite legacy PhoneGap Build test app for Windows 10 x86
     </description>
     <author email="brodybits@litehelpers.net" href="https://github.com/brodybits">
         @brodybits (Christopher J. Brody aka Chris Brody)
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-dialogs" spec="~1.3.0" />
-    <plugin name="cordova-sqlite-evcore-extbuild-free" spec="~0.8.2" />
+    <plugin name="cordova-sqlite-legacy-build-support" spec="https://github.com/litehelpers/Cordova-sqlite-legacy-build-support" />
     <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="windows-appx-target" value="uap" />
-    <preference name="windows-arch" value="arm" />
+    <preference name="windows-arch" value="x86" />
 </widget>

@@ -1,6 +1,6 @@
-# Cordova sqlite evcore-extbuild-free PhoneGap Build Windows 10 ARM test app
+# Cordova sqlite legacy PhoneGap Build test app for Windows 10 x86
 
-PhoneGap Build test app with `cordova-sqlite-evcore-extbuild-free` for Windows 10 ARM architecture
+PhoneGap Build test app with `Cordova-sqlite-legacy-build-support` for Windows 10 x86
 
 **AUTHOR:** [@brodybits (Christopher J. Brody aka Chris Brody)](https://github.com/brodybits)
 
@@ -14,8 +14,8 @@ PhoneGap Build test app with `cordova-sqlite-evcore-extbuild-free` for Windows 1
 
 - Bootstrap (3.3.6) - included (MIT license)
 - JQuery (2.2.4) - included (MIT license)
-- `cordova-plugin-dialogs` - specified in `config.xml` (Apache license)
-- `cordova-sqlite-evcore-extbuild-free` (GPL or commercial license terms)
+- `cordova-plugin-dialogs` - specified in `config.xml` (Apache 2.0 license)
+- `Cordova-sqlite-legacy-build-support` (MIT license, Apache 2.0 license option for Android/Windows)
 
 NOTE: `cordova-plugin-dialogs` and `cordova-sqlite-evcore-extbuild-free` were added using the `--save` flag to ensure that these plugin would be automatically installed. It is recommended to use the `--save` flags to add any other plugins rather than adding such plugins to git.
 
